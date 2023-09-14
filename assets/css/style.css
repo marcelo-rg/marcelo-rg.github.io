@@ -371,7 +371,7 @@ section .container {
   color: #dee2e6;
   font-family: "Poppins", sans-serif;
   text-align: left;  /* Add this line */
-  text-align: center;  /* This will center-align h2 tags with this additional class */
+  text-align: center; 
 }
 
 .section-title h2::after {
@@ -409,17 +409,24 @@ section .container {
 
 .about-me .content ul li {
   padding-bottom: 10px;
+  text-align: left;
 }
 
 .about-me .content ul i {
   font-size: 20px;
   padding-right: 2px;
   color: #1c7d32;
+  
 }
 
 .about-me .content p:last-child {
   margin-bottom: 0;
 }
+
+.about-me .content p {
+  text-align: left;
+}
+
 
 /*--------------------------------------------------------------
 # Counts
